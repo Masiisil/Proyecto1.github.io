@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+*{
+  box-sizing: border-box;
+
+
+}
+
+.main-header{
+ height: 100vh;
+ font-family: 'Dosis', sans-serif;
+background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4) ), url("astro.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ position:relative;
+ overflow: hidden;
+}
+
+.main-nav{
+
+ display: flex;
+ background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6) );
+ position: absolute;
+ width: 100%;
+ z-index: 5;
+
+
+}
+
+.logo{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: 100px;
+ color: white;
+
+}
+.logo:hover{
+  background: #002217;
+
+
+
+}
+
+
+.ul {
+
+
+  display: flex;
+  margin-left: auto;
+  margin-right: 100px;
+  margin-top: 10px
+
+
+}
+ul li a{
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 1.3rem;
+  color: white;
+}
+ul li a:hover{
+  background-color: #4141ef;
+
+}
+
+.content-header{
+
+
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+
+
+
+
+}
+
+.content-header h1{
+
+  font-size: 7rem;
+
+
+
+}
+.content-header p{
+
+  font-size: 1.5rem;
+  margin: 15px 30px;
+  padding: 30px;
+
+}
+.content-header a{
+  font-size: 1.3rem;
+  padding: 15px 20px;
+  background-color: #4141ef;
+  display: inline-block;
+  color: white;
+}
+.content-header a:hover{
+  background: #6868ef;
+
+  border: 2px solid white;
+  padding: 13px 18px;
+}
+
+.linea,
+.linea2{
+  position: absolute;
+  width: 40px;
+  height: 130%;
+
+  right: 10%;
+  top: -50px;
+  transform: rotate(15deg);
+  z-index: 1;
+  background-image: linear-gradient(to right top, #2e3192, #0068c7, #009ce8, #00cff9, #1bffff);
+
+}
+
+.linea2{
+
+  right: 15%;
+}
